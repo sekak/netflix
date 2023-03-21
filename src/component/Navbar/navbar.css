@@ -1,0 +1,84 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top:0;
+	font-size: 20px;
+	background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 30%);
+	transition:   ease 0.6s;
+}
+
+.container{
+	color:white;
+ 	padding:  10px 90px;
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+}
+.left{
+	display: flex;
+	align-items: center;
+}
+
+.right{
+	display: flex;
+	align-items: center;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.img{
+	width: 100px;
+	margin-right: 30px;
+	object-fit: cover;
+	cursor: pointer;
+
+}
+
+.imguser{
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	object-fit: cover;
+	cursor: pointer;
+ }
+
+.link{
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.icon_right{
+	margin: 20px;
+	font-size: 80px;
+}
+
+.profile{
+	display: none;
+}
+
+.droparrow{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.option{
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	position: absolute;
+	top: 50px;
+ 	/* right: 10px; */
+	padding:  10px 10px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	width: auto;
+}
+ .option span{
+	 padding: 10px 0px;
+ }
